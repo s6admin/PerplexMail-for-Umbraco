@@ -186,8 +186,27 @@ namespace PerplexMail
                     _supportsAutoInc = false;
                 }
 
-            // Do a max value on the column (ugly method)
-            var result = Sql.ExecuteSql("SELECT MAX([id]) + 1 FROM [" + Constants.SQL_TABLENAME_PERPLEXMAIL_LOG + "]", CommandType.Text);
+			
+			// Do a max value on the column (ugly method)
+			string result = string.Empty;
+			try
+			{
+				result = Sql.ExecuteSql("SELECT MAX([id]) + 1 FROM [" + Constants.SQL_TABLENAME_PERPLEXMAIL_LOG + "]", CommandType.Text);
+			} catch(DbException dbex)
+			{
+				// S6 Adding Sql exception handler here so database tables will be created (if necessary) when a test email fails to send
+				try
+				{
+					Helper.HandleSqlException(dbex);
+				} catch(Exception ex)
+				{
+					System.Diagnostics.Debug.WriteLine(ex.Message);
+				}							
+			} catch(Exception ex)
+			{
+				System.Diagnostics.Debug.WriteLine(ex.Message);
+			}
+
             if (String.IsNullOrEmpty(result))
             {
                 // The table is empty, just reseed and return the next expected value (1)
