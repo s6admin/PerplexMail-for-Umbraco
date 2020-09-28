@@ -24,3 +24,9 @@ D:\projects\PerplexMail_GitHub\PerplexMail-for-Umbraco\PerplexMail\bin\Release\P
 D:\projects\PerplexMail_GitHub\PerplexMail-for-Umbraco\PerplexMail\obj\Release\PerplexMail.csprojResolveAssemblyReference.cache
 D:\projects\PerplexMail_GitHub\PerplexMail-for-Umbraco\PerplexMail\obj\Release\PerplexMail.dll
 D:\projects\PerplexMail_GitHub\PerplexMail-for-Umbraco\PerplexMail\obj\Release\PerplexMail.pdb
+C:\_SideSixMedia\ProjectsNew\SafetyMeetingOutlinesInc\Website\PerplexMail-s6-fork\PerplexMail\bin\Release\PerplexMail.dll.config
+C:\_SideSixMedia\ProjectsNew\SafetyMeetingOutlinesInc\Website\PerplexMail-s6-fork\PerplexMail\bin\Release\PerplexMail.dll
+C:\_SideSixMedia\ProjectsNew\SafetyMeetingOutlinesInc\Website\PerplexMail-s6-fork\PerplexMail\bin\Release\PerplexMail.pdb
+C:\_SideSixMedia\ProjectsNew\SafetyMeetingOutlinesInc\Website\PerplexMail-s6-fork\PerplexMail\obj\Release\PerplexMail.csprojResolveAssemblyReference.cache
+C:\_SideSixMedia\ProjectsNew\SafetyMeetingOutlinesInc\Website\PerplexMail-s6-fork\PerplexMail\obj\Release\PerplexMail.dll
+C:\_SideSixMedia\ProjectsNew\SafetyMeetingOutlinesInc\Website\PerplexMail-s6-fork\PerplexMail\obj\Release\PerplexMail.pdb

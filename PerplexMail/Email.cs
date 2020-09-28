@@ -1018,18 +1018,34 @@ namespace PerplexMail
                         message += " <== " + ex.InnerException.Message;
                     throw new Exception(message, exInner);
                 }
-            }
+            } finally
+			{
+				// S6 Added to try explicitly cleaning up, especially to help during batch email sends
+				foreach (var attachment in _mail.Attachments)
+				{
+					attachment.Dispose();
+				}
+				_mail.Attachments.Dispose(); // S6 This likely isn't necessary
+				_mail.Dispose();
+				_smtp.Dispose();
+			}
         }
 
-        /// <summary>
-        /// Resend any email that has previously been sent and logged. The email to resend is based on the email log ID, so only emails present in the log table can be resent.
-        /// </summary>
-        /// <param name="logmailID">The email log ID</param>
-        /// <param name="recipientEmail">(optioneel) The alternative recipient of the email that will be resent. If left null or empty, the original recipient's emailaddress will be used</param>
-        /// <param name="includeCC">Should the email also be sent to the original CC recipients?</param>
-        /// <param name="includeBCC">Should the email also be sent to the original CC recipients?</param>
-        /// <returns>The log ID of the email that was sent</returns>
-        public static int ReSendEmail(int logmailID, string recipientEmail = null, bool includeCC = false, bool includeBCC = false)
+		private void DisposeMessage(MailMessage message)
+		{
+			
+
+		}
+
+		/// <summary>
+		/// Resend any email that has previously been sent and logged. The email to resend is based on the email log ID, so only emails present in the log table can be resent.
+		/// </summary>
+		/// <param name="logmailID">The email log ID</param>
+		/// <param name="recipientEmail">(optioneel) The alternative recipient of the email that will be resent. If left null or empty, the original recipient's emailaddress will be used</param>
+		/// <param name="includeCC">Should the email also be sent to the original CC recipients?</param>
+		/// <param name="includeBCC">Should the email also be sent to the original CC recipients?</param>
+		/// <returns>The log ID of the email that was sent</returns>
+		public static int ReSendEmail(int logmailID, string recipientEmail = null, bool includeCC = false, bool includeBCC = false)
         {
             var logMail = LogEmail.Get(logmailID);
 
