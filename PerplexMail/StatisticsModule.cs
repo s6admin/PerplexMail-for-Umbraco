@@ -123,7 +123,16 @@ namespace PerplexMail
                 ip = c.Request.UserHostAddress,
                 useragent = useragent
             };
-            PerplexMail.Sql.ExecuteSql(Constants.SQL_QUERY_ADD_STATISTICS, System.Data.CommandType.Text, parameters);
+			// S6 try/catch so failed logging doesn't prevent page response redirect from occurring...we still want the customer to reach the intended page even if there is a tracking error
+			try
+			{
+				PerplexMail.Sql.ExecuteSql(Constants.SQL_QUERY_ADD_STATISTICS, System.Data.CommandType.Text, parameters);
+			} catch(Exception ex)
+			{
+				
+				Console.WriteLine("PerplexMail registerEvent error. ", ex);
+			}
+            
         }
 
         /// <summary>

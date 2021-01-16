@@ -224,7 +224,8 @@ namespace PerplexMail
 					var test = System.Web.HttpContext.Current.User.Identity.Name;
 				}
 				PerplexMail.Email.SendUmbracoTestEmail(request);
-				return new AjaxResponse { Success = true, Message = "Testmail sent to " + request.EmailAddresses }; // S6 Previous was request.EmailAddress
+				string emails = request.EmailAddresses == null || !request.EmailAddresses.Any() ? string.Empty : string.Join(", ", request.EmailAddresses);
+				return new AjaxResponse { Success = true, Message = "Testmail sent to " + emails }; // S6 Previous was request.EmailAddress
 			}
 			catch (Exception ex)
 			{

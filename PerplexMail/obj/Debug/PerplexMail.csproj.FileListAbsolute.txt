@@ -19,3 +19,28 @@ D:\projects\PerplexMail_GitHub\PerplexMail-for-Umbraco\PerplexMail\bin\Debug\Per
 D:\projects\PerplexMail_GitHub\PerplexMail-for-Umbraco\PerplexMail\obj\Debug\PerplexMail.csprojResolveAssemblyReference.cache
 D:\projects\PerplexMail_GitHub\PerplexMail-for-Umbraco\PerplexMail\obj\Debug\PerplexMail.dll
 D:\projects\PerplexMail_GitHub\PerplexMail-for-Umbraco\PerplexMail\obj\Debug\PerplexMail.pdb
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\PerplexMail.dll.config
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\PerplexMail.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\PerplexMail.pdb
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\Newtonsoft.Json.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Net.Http.Formatting.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.Helpers.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.Http.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.Mvc.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.Razor.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.WebPages.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.WebPages.Razor.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\Newtonsoft.Json.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Net.Http.Formatting.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.Helpers.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.Http.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.Mvc.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.Razor.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.WebPages.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\bin\Debug\System.Web.WebPages.Razor.xml
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\obj\Debug\PerplexMail.csprojResolveAssemblyReference.cache
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\obj\Debug\PerplexMail.dll
+C:\_SideSixMedia\ProjectsNew\AuthLite\www.authlite.com\PerplexMail - S6 fork - MVC\PerplexMail\obj\Debug\PerplexMail.pdb
