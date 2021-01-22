@@ -131,8 +131,9 @@ namespace PerplexMail
                     }
                 }
 
-            // If any text-only version has been specified, include it
-            AlternativeView = ReplaceTags(nMail.GetProperty(EnmUmbracoPropertyAlias.textVersion));
+			// If any text-only version has been specified, include it
+			//AlternativeView = ReplaceTags(nMail.GetProperty(EnmUmbracoPropertyAlias.textVersion));
+			AlternativeView = Helper.ParseText(nMail.GetProperty(EnmUmbracoPropertyAlias.textVersion), _listOfTags); // S6 Add if/else markdown support to AltView
 
             // Determine if any template has been selected for the email
             string templateID = nMail.GetProperty(EnmUmbracoPropertyAlias.emailTemplate);
